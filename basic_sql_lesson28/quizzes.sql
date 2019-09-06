@@ -188,6 +188,8 @@ WHERE channel IN ('organic', 'adwords')
 AND occurred_at BETWEEN '2016.01.01' AND '2017.01.01'
 ORDER BY channel DESC;
 
+/*ORDER BY occurred_at DESC should be used instead of channel
+*/
 ## OR
 
 /*1.Find list of orders ids where either gloss_qty or poster_qty is greater than 4000. Only include the id field in the resulting table.*/
